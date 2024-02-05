@@ -1,0 +1,585 @@
+/* Main (SnP) Font */
+@font-face
+{
+    font-family:futurak;
+    src:url('futurak.ttf');
+}
+
+/* Sub-Font#01 */
+@font-face
+{
+    font-family:abel;
+    src: url('abel.ttf')
+}
+
+/* Sub-Font#02 */
+@font-face
+{
+    font-family:ptserif;
+    src: url('ptserif.ttf')
+}
+
+/* Main Body */
+body
+{
+    background-color: #000000;
+}
+
+/* Header(Contains SnP Logo, Online Order Button, Menu Bar & Banner) */
+.header
+{
+    display:inline-block;
+    white-space: nowrap;
+    margin-right:10px; 
+}
+
+/* SnP Logo Div */
+#logo-img
+{
+    margin-left:360px; 
+}
+
+/* Order Online Button Image Div*/
+#button-div
+{
+    margin-left:230px;
+}
+
+/* SnP Logo Image */
+#logo
+{
+    width:200px;
+    height:100px; 
+}
+
+/* Order Online Button */
+#order-online
+{
+    width:150px;
+    height:100px;
+}
+
+/* Links On The Menu Bar */
+.link
+{
+    padding-left:100px;
+    color:#FFFFFF;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+/* Link Menu Div */
+.link-menu
+{
+    background-color:red;
+    border:thick;
+    height:40px;
+    border-width:5px;
+    border-style:groove;
+    border-color:#FFFFFF;
+}
+
+/* Link Menu Sub-Div */
+.sub-link
+{
+    padding-top:10px;
+}
+
+/* Banner Image */
+#banner
+{
+    width:100%;
+}
+
+/* Main (SnP Font) */
+.futurak
+{
+    font-family:futurak;
+    font-size: 60px;
+}
+
+/* Color Of The Text On The Whole Web Page/ Website */
+.color
+{
+    color:#FFFFFF;
+}
+
+/* Sub-Font#01 Text */
+.mid-text
+{
+    font-family:abel;
+    font-size:50px;
+}
+
+/* Sub-Font#01 Text(small) */
+#small-text
+{
+    font-family:abel;
+    font-size:20px;
+}
+
+/* Brand Images & Descriptions Div*/
+.brand
+{
+    display:inline-block;
+    white-space: nowrap;
+    margin-right:10px;
+    
+}
+
+/* 1st Image In Brand Images */
+#img1
+{
+    width:200px;
+    height:150px;
+}
+
+/* 2nd Image In Brand Images */
+#img2
+{
+    width:200px;
+    height:150px;
+}
+
+/* 3rd Image In Brand Images */
+#img3
+{
+    width:200px;
+    height:150px;
+}
+
+/* Grouping All The Brand Images */
+.brand-img
+{
+    padding-left:45px;
+    width:200px;
+    height:150px;
+}
+
+/* Branding Navigation Buttons */
+.button
+{
+    background-color:#000000;
+    color:#FFFFFF;
+    border-color:#FFFFFF;
+    border-radius:20px;
+    width:130px;
+    height:30px;
+}
+
+/* Sub-Font#02 Text */
+.ptserif
+{
+    font-family:ptserif;
+    font-size:60px;
+}
+
+/* The Background Image For The Restaurant Franchises & The Bottom Content Sections*/
+.background-img1
+{
+ background-image: url('background-img-s.webp');
+background-repeat: no-repeat;
+}
+
+/* The Background Image For The Express Franchise Section*/
+.background-img2
+{
+ background-image: url('background-img-p.webp');
+background-repeat: no-repeat;
+}
+
+
+/* Second Use of The Main (SnP) Font */
+.futurak2
+{
+    font-family:futurak;
+    font-size:40px;
+}
+
+/* Second Use Of The Sub-Font#01 Text */
+.mid-text2
+{
+    font-family:abel;
+    font-size:30px;
+}
+
+/* Names Of The Cities In The Restaurant Franchises, Gujranwala Village */
+.city
+{
+    color:red;
+    font-family:abel;
+    font-size:20px;
+    font-weight:bold;
+    letter-spacing:10px;
+}
+
+/* Grouping All The Franchise Images */
+.snp-franchise
+{
+    width:350px;
+    height:200px;
+}
+
+/* Restauranst Franchises' Images & Descriptions Div */
+.franchise-div
+{
+    padding-left:70px;
+}
+
+/* Tables Containing Restaurant Franchises' Images & Descriptions */
+.table
+{
+    padding-left:40px;
+    width:100%;
+}
+
+/* A Specific Column (Text) Of The Table Containing The Faisalabad Restaurant Franchise */
+.table-col
+{
+    padding-right:120px;
+}
+
+/* Get Directions Button */
+.map-button
+{
+    border-radius:20px;
+    border-style:groove;
+    background-color:#000000;
+}
+
+/* The Red Arrow In The Buttons */
+.arrow
+{
+    color:red;
+}
+
+/* The Arrow Image on The Get Directions Button */
+.map-button-arrow
+{
+    align-items:center;
+    width:20px;
+    height:20px;
+}
+
+/* Making The Button And The Icon In It Inline */
+.inline-button-img
+{
+    display:flex;
+    align-content:center;
+}
+ 
+ /* Div Containing The Rows Of The Express Franchises */
+ .express-row
+ {
+     text-align:center;
+     align-items:baseline;
+     margin-right:20px;
+ }
+ 
+/* Making the Images & Description In The Express Franchise Section In-line */
+.express
+{
+    display:inline-block;
+    white-space: nowrap;
+    margin-right:10px; 
+}
+
+/* Images In The Express Franchise Section */
+.express-img
+{
+    padding-right:30px;
+    padding-left:30px;
+    width:200px;
+    height:150px;
+}
+
+/* City Names In The Express Franchise Section */
+.express-city
+{
+    color:red;
+    font-family:abel;
+    font-size:10px;
+    font-weight:bold;
+    letter-spacing:5px;
+}
+
+/* The "Salt'n Pepper" Text In The Express Franchise Section*/
+.express-snp-font
+{
+    /* font-family:fururak; */
+    font-size:20px;
+}
+
+/* The "Express" Text In The Express Franchise Section*/
+.express-express-font
+{
+    font-size:20px;
+}
+
+/* Size Of The Icon Images */
+.icon-img
+{
+    width:20px;
+    height:20px;
+}
+
+/* Grouping The Icons & Their Texts */
+.icon
+{
+    display:inline;
+    flex-direction:start;
+}
+
+/* Gujranwala Village Franchise Section*/
+.village-franchise
+{
+    background-color:#2B2B2B;
+}
+
+/* Gujranwala Village Div */
+.gujranwala-village-sec
+{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+}
+
+/* The Gujranwala Village Image*/
+#gujranwala-village
+{
+    width:500px;
+    height:300px;
+}
+
+/* The Gujranwala Village Section Text*/
+#gujranwala-village-text
+{
+   margin-top:10px;
+}
+
+/* The Green Colored Map Button */
+.get-dir-green-button
+{
+    background-color:green;
+    color:#FFFFFF;
+    border-radius:20px;
+}
+
+
+/* The Green Colored Arrow */
+.arrow2
+{
+    width:50px;
+    height:50px;
+    background-color:#FFFFFF;
+    color:green;
+    border-radius:100px;
+}
+
+/* The "Opening Soon" Font */
+.opening-soon
+{
+    font-family:ptserif;
+    font-size:30px;
+}
+
+/* Div Containing All The Three Rows Of The White Boxes */
+.opening-soon-content
+{
+   
+}
+
+/* Rows Of White Boxes */
+.white-box-rows
+{
+    display:flex;
+    justify-content:center;
+    margin-bottom:50px;
+    gap:50px;
+}
+
+/* Grouping All The White Boxes */
+.white-box
+{
+    width:170px;
+    height:200px;
+    background-color:#FFFFFF;
+    padding-top:30px;
+    align-items:center;
+    text-align:center;
+}
+
+/* Font Of "Opening Soon" In The White Boxes */
+.os-font
+{
+    font-family:abel;
+    font-size:12px;
+    font-weight:bold;
+    color:red;
+    letter-spacing:5px;
+}
+
+/* Font Of "Salt'n Pepper" In The White Boxes */
+.font-of-snp
+{
+    font-family:ariel;
+    font-weight:bold;
+    font-size:20px;
+}
+
+/* Font Of "Express" In The White Boxes */
+.font-of-express
+{
+    font-family:abel;
+    font-size:20px;
+}
+
+/* Font Of The Addresses In The White Boxes */
+.address-font
+{
+    font-size:15px;
+}
+
+/* Font Of The "Social Feed" Heading */
+.social-feed
+{
+    font-family:ptserif;
+    font-size:30px;
+    text-align:center;
+}
+
+/* Menu Div */
+.menu
+{
+    display:flex;
+    justify-content:center;
+    gap:40px;
+}
+
+/* Menu Images */
+.menu-img
+{
+    width:200px;
+    height:200px;
+}
+
+/* Outer Section Of The Botton Content Of The Website */
+#bottom-content-outer-section
+{
+    background-color:#2B2B2B;
+}
+
+/* Bottom Content Of The Website */
+.bottom-content
+{
+    display:flex;
+}
+
+/* Ending Paragraphs */
+.end-note
+{
+    width:300px;
+    margin-left:10px;
+}
+
+/* SnP Restaurant Logo Image */
+.restaurant-logo
+{
+    width:150px;
+    height:80px;
+}
+
+/* Word Spacing B/W The Terms & Conditions and Privacy Policy*/
+.tc-pp
+{
+    word-spacing: 50px;
+}
+
+/* Site Links Inner Div */
+.site-links-div
+{
+    display:block;
+    width:200px;
+    margin-left:150px;
+}
+
+/* Font Of The "Site Links" Heading */
+#bottom-content-font
+{
+    font-family:ptserif;
+    font-size:20px;
+}
+
+/* Links In The Botton Content Of The Webpage */
+.endlink
+{
+    text-decoration:none;
+    color:#808080;
+}
+
+/* Site Links At The Bottom Of The Website */
+#site-links
+{
+    /* padding-left:80px; */
+}
+
+/* Gray Colored Font */
+.color2
+{
+    color:#808080;
+}
+
+/* The Contact Us Font */
+#bottom-content-font
+{
+    font-size:20px;
+    /* padding-left:50px;
+    margin-right:50px; */
+}
+
+/* "Contact Us" Div At the Bottom */
+.contact-div
+{
+    width:300px;
+    margin-left:80px;
+}
+
+/* The "Follow Us" Font At The Bottom */
+.follow-us-font
+{
+    font-family:ptserif;
+    font-size:20px;
+}
+
+/* Social Media Handles (Buttons) */
+.follow-us
+{
+    width:50px;
+    height:50px;
+}
+
+/* Get The SnP App */
+.app-icons
+{
+    width:150px;
+    height:100px;
+}
+
+/* The Bottom Most Credits Paragraph */
+.bottom-most
+{
+    width:100%;
+}
+
+/* The Bottom Most Credits Copyright Span */
+.copyright
+{
+    padding-left:200px;
+}
+
+/* The Bottom Most Credits Author Span */
+.tossdown
+{
+    padding-left:200px;
+}
+
