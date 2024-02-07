@@ -28,16 +28,18 @@ body
 /* Header(Contains SnP Logo, Online Order Button, Menu Bar & Banner) */
 .header
 {
-    display:inline-block;
+    /*display:inline-block;
     white-space: nowrap;
-    margin-right:10px; 
+    margin-right:10px;*/
+    display:flex;
+    justify-content:center;
 }
 
 /* Div Containing The Logo & Order Online Button */
 #container
 {
     display:flex;
-    white-space: nowrap;
+    justify-content:center;
 }
 
 /* SnP Logo Div */
@@ -69,7 +71,7 @@ body
 /* Links On The Menu Bar */
 .link
 {
-    padding-left:100px;
+    /*padding-left:100px;*/
     color:#FFFFFF;
     text-decoration:none;
     font-weight:bold;
@@ -78,6 +80,8 @@ body
 /* Link Menu Div */
 .link-menu
 {
+    display:flex;
+    justify-content:space-between;
     background-color:red;
     border:thick;
     height:40px;
@@ -128,9 +132,10 @@ body
 /* Brand Images & Descriptions Div*/
 .brand
 {
-    display:inline-block;
-    white-space: nowrap;
-    margin-right:10px;
+    display:flex;
+    justify-content:center;
+    /*white-space: nowrap;
+    margin-right:10px;*/
     
 }
 
@@ -230,7 +235,8 @@ background-repeat: no-repeat;
 /* Restauranst Franchises' Images & Descriptions Div */
 .franchise-div
 {
-    padding-left:70px;
+    display:flex;
+    justify-content:center;
 }
 
 /* Tables Containing Restaurant Franchises' Images & Descriptions */
